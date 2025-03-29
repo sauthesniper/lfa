@@ -1,0 +1,18 @@
+# sample
+Sigma:
+a
+b
+End
+
+States:
+p, S
+q
+r, F
+End
+
+Transitions:
+p, a, p
+p, a, q
+q, b, r
+p, b, r
+End
