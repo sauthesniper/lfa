@@ -11,5 +11,5 @@ const inputs = ["", "a", "aa", "ab", "bbb", "aab", "abbb"];
 
 for (const inp of inputs) {
     const accepted = testStringNFA(config, inp);
-    console.log(`Input: ${inp || "ε"} => ${accepted ? "ACCEPTAT" : "RESPINS"}`);
+    console.log(`Input: ${inp || ""} => ${accepted ? "ACCEPTAT" : "RESPINS"}`);
 }
